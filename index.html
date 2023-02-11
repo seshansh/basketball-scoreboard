@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="intro"><H3 class="bScoreboard">Basketball Scoreboard🏀</H3></div>
+        <div class="container">
+            <div>
+                <h3 class="teamName">HOME</h3>
+                <div>
+                    <p class="points">0</p>
+                </div>
+                <div>
+                    <button class="new-point" onclick="newPoint1()">+1</button>
+                    <button class="new-point" onclick="newPoint2()">+2</button>
+                    <button class="new-point" onclick="newPoint3()">+3</button>
+                </div>
+            </div>
+            
+            <div class="scoreRelated">
+                <h3 class="teamName2">GUEST</h3>
+                <div>
+                    <p class="points">0</p>
+                </div>
+                <div>
+                    <button class="new-point" onclick="new2point1()">+1</button>
+                    <button class="new-point" onclick="new2point2()">+2</button>
+                    <button class="new-point" onclick="new2point3()">+3</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div>
+        <div class="game-over">
+            <a href="#result"><button  class="game-overBtn" onclick="gameOver()" >GAME OVER</button></a>
+        </div>
+    </div>
+
+    <div>
+        <div class="restart">
+            <button class="new-game" onclick="newGame()">START NEW GAME</button>
+        </div>
+    </div>
+
+    <div id="result">
+        <div class="resultBoard">
+           <p class="resultText"><u>RESULT:</u></p>
+           <p id="prevMatch"></p>
+           <p id="winnerName"></p>
+           <div class="team12">
+                <div>
+                    <p id="teamName1"></p>
+                    <p id="teamResult1"></p>
+                    
+                </div>
+
+                <div>
+                    <p id="teamName2"></p>
+                    <p id="teamResult2"></p>
+                </div>
+           </div>
+
+        </div>
+    </div>
+    
+     
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+
+
+body{
+    margin: 0;
+    background-color: #73777B;  
+}
+
+.top{
+    
+    background-image: url("/images/bs2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.intro{
+    
+    text-align: center;
+}
+.bScoreboard{
+    margin-top: 0px;
+    font-size: 4rem;
+    color: #E94560;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+.teamName{
+    margin-left: auto;
+    font-size: 4rem;
+    color: #293462;
+    text-shadow: 5px 0 snow;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+.teamName2{
+    margin-left: auto;
+    font-size: 4rem;
+    color: #293462;
+    text-shadow: 5px 0 snow;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* .points1{
+    width: 15rem;
+    height: 10rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 0.5rem;
+    background-color: black;
+    font-size: 7rem;
+    color: #FF597B;
+    text-align: center;
+    justify-content: center;
+
+} */
+.points{
+    width: 15rem;
+    height: 10rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 0.5rem;
+    background-color: black;
+    text-shadow: 3px 0 white;
+    font-size: 7rem;
+    color: #FF597B;
+    text-align: center;
+    /* justify-content: center; */
+    font-family:'digital-clock-font'
+
+}
+
+.scoreRelated{
+    position: relative;
+    justify-content: center;
+}
+
+.new-point{
+    background-color: #434242;
+    width: 3.7rem;
+    height: 3.7rem;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 0.8rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+
+
+}
+
+.game-over{
+    padding: 2rem;
+    text-align: center;
+}
+.game-overBtn{
+    background-color:red;
+    color: #F1F6F5;
+    text-shadow: 5px 0 black;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.game-overBtn:hover{
+    cursor: pointer;
+}
+.restart{
+    padding: 3rem;
+    text-align: center;
+}
+.new-game{
+    background-color: #1A120B ;
+    color: #FF597B;
+    font-size: 4rem;
+    border-radius: 10px;
+}
+
+#result{
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+
+.resultBoard{
+    width: 40rem;
+    margin: auto;
+    /* margin-bottom: 0; */
+    background-color: #1A120B;
+    color:white;
+    font-size: 5rem;
+    text-align: center; 
+    margin-bottom: 4rem;
+}
+.resultText{
+    margin-bottom: 0;
+}
+
+.team12{
+    display: flex;
+    justify-content: space-between;
+}
+
+#teamName1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#teamName2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
